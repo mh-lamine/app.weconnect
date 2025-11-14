@@ -12,7 +12,8 @@ export default defineConfig({
 			manifest: {
 				display: 'standalone',
 				name: 'WeConnect',
-				short_name: 'WeConnect'
+				short_name: 'WeConnect',
+				background_color: '#6366f1'
 			}
 		})
 	],
