@@ -8,6 +8,7 @@ export default defineConfig({
 		tailwindcss(),
 		sveltekit(),
 		SvelteKitPWA({
+			registerType: 'autoUpdate',
 			manifest: {
 				display: 'standalone',
 				name: 'WeConnect',
