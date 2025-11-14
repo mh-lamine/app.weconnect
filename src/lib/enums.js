@@ -3,14 +3,17 @@ import { Home, Store, UserRoundCog } from '@lucide/svelte';
 export const dockItems = [
 	{
 		path: '/',
-		icon: Home
+		icon: Home,
+		label: 'Home'
 	},
 	{
 		path: '/salons',
-		icon: Store
+		icon: Store,
+		label: 'Salons'
 	},
 	{
 		path: '/settings',
-		icon: UserRoundCog
+		icon: UserRoundCog,
+		label: 'Settings'
 	}
 ];

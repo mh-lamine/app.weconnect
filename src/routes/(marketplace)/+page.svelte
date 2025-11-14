@@ -144,7 +144,7 @@
 	</div>
 </section>
 
-<section class="py-14">
+<section id="about" class="py-14">
 	<div class="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
 		<div class="relative max-w-2xl mx-auto sm:text-center">
 			<div class="relative z-10">
@@ -242,7 +242,7 @@
 	</div>
 </section>
 
-<section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">
+<section id="q-&-a" class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">
 	<div class="space-y-3 text-center">
 		<h1 class="text-3xl text-gray-800 font-semibold">Frequently Asked Questions</h1>
 		<p class="text-gray-600 max-w-lg mx-auto text-lg">
@@ -300,5 +300,3 @@
 		</div>
 	</div>
 </section>
-
-
