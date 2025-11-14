@@ -4,10 +4,17 @@ import { defineConfig } from 'vite';
 import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 
 export default defineConfig({
-	plugins: [tailwindcss(), sveltekit(), SvelteKitPWA({
-		display: 'standalone',
-		name: 'WeConnect',
-	})],
+	plugins: [
+		tailwindcss(),
+		sveltekit(),
+		SvelteKitPWA({
+			manifest: {
+				display: 'standalone',
+				name: 'WeConnect',
+				short_name: 'WeConnect'
+			}
+		})
+	],
 	server: {
 		port: 2200
 	}
