@@ -1,4 +1,4 @@
-import { Home, Store, UserRoundCog } from '@lucide/svelte';
+import { CircleUserRound, Home, MapPin, Store, UserRoundCog } from '@lucide/svelte';
 
 export const dockItems = [
 	{
@@ -8,12 +8,12 @@ export const dockItems = [
 	},
 	{
 		path: '/salons',
-		icon: Store,
+		icon: MapPin,
 		label: 'Salons'
 	},
 	{
 		path: '/settings',
-		icon: UserRoundCog,
+		icon: CircleUserRound,
 		label: 'Settings'
 	}
 ];
